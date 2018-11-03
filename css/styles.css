@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flag{
+    min-height: 500px;
+}
+
+.jumbotron{
+    height: auto;
+    color: #fff;
+    background: url(../images/header.jpg);
+}
+
+.badge{
+    letter-spacing: 2px;
+}
+
+.scrollable{
+    height: 100%;
+}
+
+.homecol1, .homecol2, .homecol3 {
+    height: 100%;
+    overflow-y: auto;
+}

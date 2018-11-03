@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Article">
+    <head>
+        <title>Eureka</title>
+    <!-- jQuery UI CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous" />
+    <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha256-zVUlvIh3NEZRYa9X/qpNY8P1aBy0d4FrI7bhfZSZVwc=" crossorigin="anonymous" />
+    <!-- LESS MODIFICATIONS -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- APP JS -->
+        <script src="/js/app.js"></script>
+    <!-- LESS CSS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.3/less.min.js"></script>
+    <!-- LESS CSS ACTIVATOR -->
+        <script>
+            less = {
+                env: "development",
+                async: false,
+                fileAsync: false,
+                poll: 1000,
+                functions: {},
+                dumpLineNumbers: "comments",
+                relativeUrls: false,
+                rootpath: ":/a.com/"
+            };
+        </script>
+    <!-- JQUERY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+    <!-- POPPER -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.js" integrity="sha256-wqAoCRn9//AnHSl4qbXVhqdvmgFQqN5Elqp4Eb2wOXA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper-utils.min.js" integrity="sha256-mrxLZbMK3Up/Mzvbd/UeyvZv5ZgPAFqqDY/z8r3sN8c=" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha256-IeI0loa35pfuDxqZbGhQUiZmD2Cywv1/bdqiypGW46o=" crossorigin="anonymous"></script>
+    <!-- UI KIT -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.4/js/bootstrap-switch.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand text-uppercase border-right pr-4" href="index.html"><i class="fas fa-hippo"></i> Eureka Organization</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="application.html">Submit Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+                <div class="btn-group dropleft">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span>My Account</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item py-2 border-bottom" href="profile.html">
+                            <i class="fas fa-user-circle fa-fw mr-2"></i> Profile
+                        </a>
+                        <a class="dropdown-item py-2 border-bottom" href="applications.html">
+                            <i class="fas fa-file-alt fa-fw mr-2"></i> Applications
+                        </a>
+                        <a class="dropdown-item py-2 border-bottom" href="judging.html">
+                            <i class="fas fa-gavel fa-fw mr-2"></i> Judging Assignments
+                        </a>
+                        <a class="dropdown-item py-2" href="sessions.html">
+                            <i class="fas fa-calendar-alt fa-fw mr-2"></i> Sessions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main role="main">
+            <div class="jumbotron rounded-0">
+                <div class="container">
+                    <h1 class="text-uppercase">Judging Assignments</h1>
+                    <h4 class="text-uppercase">2019 Design in Spaces Sessions</h4>
+                    <table>
+                        <tr class="text-uppercase pt-2 mt-2 h6">
+                            <td class="pt-2 mt-2">Judging Start:</td>
+                            <td class="pt-2 mt-2"><i class="fas fa-calendar-alt ml-3 mr-1"></i> 01/01/2018</td>
+                            <td class="pt-2 mt-2"><i class="far fa-clock ml-3 mr-1"></i> 5:40 PM</td>
+                        </tr>
+                        <tr class="text-uppercase h6">
+                            <td class="pt-2 mt-2">Judging End:</td>
+                            <td class="pt-2 mt-2"><i class="fas fa-calendar-alt ml-3 mr-1"></i> 01/01/2019</td>
+                            <td class="pt-2 mt-2"><i class="far fa-clock ml-3 mr-1"></i> 11:59 PM</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="container-fluid" style="height:10%;">
+                <section class="pb-5">
+                    <div class="row" style="height:10%;">
+                        <div class="col-md-3 border-right">
+                            <div class="card mb-4">
+                                <img class="card-img-top" src="images/header.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="badge badge-light badge-pill rounded-0 font-weight-normal mb-3 border">Application 2355</span>
+                                    <h5 class="card-title">Chocolate Milk for Dinner</h5>
+                                    <p class="card-text">By Johnny Appleseed</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item bg-dark text-white rounded">Score <span class="float-right">10</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-4 bg-secondary text-white">
+                                <img class="card-img-top" src="images/header.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="badge badge-light badge-pill rounded-0 font-weight-normal mb-3 border">Application 1234</span>
+                                    <h5 class="card-title">Telphones are Cool</h5>
+                                    <p class="card-text">By Johnny Appleseed</p>
+                                    <a href="#" class="btn btn-light btn-block">Currently Judging</a>
+                                </div>
+                            </div>
+                            <div class="card mb-4">
+                                <img class="card-img-top" src="images/header.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <span class="badge badge-light badge-pill rounded-0 font-weight-normal mb-3 border">Application 2532</span>
+                                    <h5 class="card-title">I rode a bike today.</h5>
+                                    <p class="card-text">By Johnny Appleseed</p>
+                                    <a href="#" class="btn btn-primary btn-block">Judge Application</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb rounded-0">
+                                    <li class="breadcrumb-item" aria-current="page">Personal Information</li>
+                                    <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                                </ol>
+                            </nav>
+                            <h3 class="mb-3 pb-3 border-bottom">Telphones are Cool</h3>
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputFirstName">First Name</label>
+                                        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" disabled>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputLastName">Last Name</label>
+                                        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail">Email Address</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" disabled>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPhone">Phone Number</label>
+                                        <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" disabled>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" disabled>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control" id="inputCity" placeholder="City" disabled>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control" disabled>
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip" placeholder="00000" disabled>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-3 border-left">
+                            <form>
+                                <div class="form-group py-2">
+                                    <label for="inputState" class="h4">Score Personal Information</label>
+                                    <p>
+                                        Please score this applicant on a scale of 1 to 5 based on their application.
+                                    </p>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group py-2">
+                                    <label for="inputState" class="h4">Score Personal Information</label>
+                                    <p>
+                                        Please score this applicant on a scale of 1 to 5 based on their application.
+                                    </p>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1" class="h4">Comments for Applicant</label>
+                                    <p>Please enter any suggestions that you may have for the applicant.</p>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Submit Scores</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="col-md-12 border-top text-right py-4">
+                Powered by Knowledge. &copy; 2018 Thought Experiments in Good Design
+            </footer>
+        </main>
+    </body>
+</html>
